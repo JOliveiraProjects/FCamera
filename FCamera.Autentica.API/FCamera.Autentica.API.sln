@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Apresentation", "1-Apresentation", "{93469E6E-6100-4ED9-8097-EC4B98FE7768}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{530212DF-C557-41E8-B4AD-3D8314250BAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{60781C8C-8127-4778-A1B6-3549130263E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{DC97F34F-68E9-41A6-BDF6-15542D6556DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1-Data", "4.1-Data", "{4A7D9407-56E5-4454-B415-839B07780651}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-CrossCutting", "4.2-CrossCutting", "{80FF08CA-FD1A-4F34-BADF-70213C8C395D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamera.Infra.CrossCutting.Ioc", "FCamera.Infra.CrossCutting.Ioc\FCamera.Infra.CrossCutting.Ioc.csproj", "{2B9D7F08-5984-47EB-839C-A0A36F524330}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FCamera.Autentica.API", "FCamera.Apresentation\FCamera.Autentica.API.csproj", "{2A96DF07-0B06-4682-BFBE-9E85839CD8CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FCamera.Application", "FCamera.Application\FCamera.Application.csproj", "{1D0495EB-6B05-45DA-8B0E-CD7A436A79DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FCamera.Domain", "FCamera.Domain\FCamera.Domain.csproj", "{BAE4A544-4A21-47F8-9ECF-674DE201DD55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FCamera.Infra.Data", "FCamera.Infra.Data\FCamera.Infra.Data.csproj", "{01ADEBD2-4B09-4C52-BE3D-B7E1E5365270}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Common", "5-Common", "{0BB82588-AF18-48BE-9BDB-DEC65619E70E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamera.Common", "FCamera.Common\FCamera.Common.csproj", "{010B3C4C-5FF3-4683-B476-E3765742C6F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B9D7F08-5984-47EB-839C-A0A36F524330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9D7F08-5984-47EB-839C-A0A36F524330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9D7F08-5984-47EB-839C-A0A36F524330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9D7F08-5984-47EB-839C-A0A36F524330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A96DF07-0B06-4682-BFBE-9E85839CD8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A96DF07-0B06-4682-BFBE-9E85839CD8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A96DF07-0B06-4682-BFBE-9E85839CD8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A96DF07-0B06-4682-BFBE-9E85839CD8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0495EB-6B05-45DA-8B0E-CD7A436A79DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0495EB-6B05-45DA-8B0E-CD7A436A79DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0495EB-6B05-45DA-8B0E-CD7A436A79DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0495EB-6B05-45DA-8B0E-CD7A436A79DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE4A544-4A21-47F8-9ECF-674DE201DD55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE4A544-4A21-47F8-9ECF-674DE201DD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE4A544-4A21-47F8-9ECF-674DE201DD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE4A544-4A21-47F8-9ECF-674DE201DD55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01ADEBD2-4B09-4C52-BE3D-B7E1E5365270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01ADEBD2-4B09-4C52-BE3D-B7E1E5365270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01ADEBD2-4B09-4C52-BE3D-B7E1E5365270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01ADEBD2-4B09-4C52-BE3D-B7E1E5365270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{010B3C4C-5FF3-4683-B476-E3765742C6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010B3C4C-5FF3-4683-B476-E3765742C6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010B3C4C-5FF3-4683-B476-E3765742C6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010B3C4C-5FF3-4683-B476-E3765742C6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A7D9407-56E5-4454-B415-839B07780651} = {DC97F34F-68E9-41A6-BDF6-15542D6556DD}
+		{80FF08CA-FD1A-4F34-BADF-70213C8C395D} = {DC97F34F-68E9-41A6-BDF6-15542D6556DD}
+		{2B9D7F08-5984-47EB-839C-A0A36F524330} = {80FF08CA-FD1A-4F34-BADF-70213C8C395D}
+		{2A96DF07-0B06-4682-BFBE-9E85839CD8CC} = {93469E6E-6100-4ED9-8097-EC4B98FE7768}
+		{1D0495EB-6B05-45DA-8B0E-CD7A436A79DA} = {530212DF-C557-41E8-B4AD-3D8314250BAD}
+		{BAE4A544-4A21-47F8-9ECF-674DE201DD55} = {60781C8C-8127-4778-A1B6-3549130263E5}
+		{01ADEBD2-4B09-4C52-BE3D-B7E1E5365270} = {4A7D9407-56E5-4454-B415-839B07780651}
+		{010B3C4C-5FF3-4683-B476-E3765742C6F6} = {0BB82588-AF18-48BE-9BDB-DEC65619E70E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F04E3C5D-7910-4DF1-9E0D-EA2E5AF72EAD}
+	EndGlobalSection
+EndGlobal

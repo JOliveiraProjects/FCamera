@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  banco:
+    image: fcamerabancoapi:dev
+    build:
+      context: .
+      dockerfile: FCamera.Banco.API/Dockerfile
+    container_name: teste
+
+  autentica:
+    image: fcameraautenticaapi:dev
+    build:
+      context: .
+      dockerfile: FCamera.Autentica.API/Dockerfile
+    container_name: autentica
+
+  gateway:
+    image: fcameragatewayapi:dev
+    build:
+      context: .
+      dockerfile: FCamera.Gateway.API/Dockerfile
+    container_name: gateway
