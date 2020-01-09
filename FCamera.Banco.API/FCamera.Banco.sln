@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamera.Banco.API", "FCamera.Banco.API\FCamera.Banco.API.csproj", "{6D9EC98C-7A4C-4F1D-A6E2-AE31514288B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamera.Banco.Domain", "FCamera.Banco.Domain\FCamera.Banco.Domain.csproj", "{EF04EFA1-C1A9-44E5-8CC6-595AAE6A034C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamera.Banco.Application", "FCamera.Banco.Application\FCamera.Banco.Application.csproj", "{455F4F48-A259-4F05-A6B1-05E78EC1A520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamera.Banco.Common", "FCamera.Banco.Common\FCamera.Banco.Common.csproj", "{D8199D16-0D1C-443E-AD65-205AD7A371B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Apresentation", "1-Apresentation", "{3A293714-0824-482F-99BD-4F24FB55E78D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{A7C47F18-4C36-4F5C-A2F2-7ADC353863F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{59C9A5F6-96BF-4E9D-A318-5849480910AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Common", "4-Common", "{879F2FCB-3408-49F3-A615-9C1DEC5FC98D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D9EC98C-7A4C-4F1D-A6E2-AE31514288B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9EC98C-7A4C-4F1D-A6E2-AE31514288B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9EC98C-7A4C-4F1D-A6E2-AE31514288B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9EC98C-7A4C-4F1D-A6E2-AE31514288B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF04EFA1-C1A9-44E5-8CC6-595AAE6A034C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF04EFA1-C1A9-44E5-8CC6-595AAE6A034C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF04EFA1-C1A9-44E5-8CC6-595AAE6A034C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF04EFA1-C1A9-44E5-8CC6-595AAE6A034C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{455F4F48-A259-4F05-A6B1-05E78EC1A520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455F4F48-A259-4F05-A6B1-05E78EC1A520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455F4F48-A259-4F05-A6B1-05E78EC1A520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455F4F48-A259-4F05-A6B1-05E78EC1A520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8199D16-0D1C-443E-AD65-205AD7A371B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8199D16-0D1C-443E-AD65-205AD7A371B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8199D16-0D1C-443E-AD65-205AD7A371B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8199D16-0D1C-443E-AD65-205AD7A371B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D9EC98C-7A4C-4F1D-A6E2-AE31514288B7} = {3A293714-0824-482F-99BD-4F24FB55E78D}
+		{EF04EFA1-C1A9-44E5-8CC6-595AAE6A034C} = {59C9A5F6-96BF-4E9D-A318-5849480910AA}
+		{455F4F48-A259-4F05-A6B1-05E78EC1A520} = {A7C47F18-4C36-4F5C-A2F2-7ADC353863F8}
+		{D8199D16-0D1C-443E-AD65-205AD7A371B7} = {879F2FCB-3408-49F3-A615-9C1DEC5FC98D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26C16BBD-5ACE-48DA-9711-60E04DC59D0E}
+	EndGlobalSection
+EndGlobal
